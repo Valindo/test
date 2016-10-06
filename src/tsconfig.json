@@ -12,6 +12,15 @@
     "target": "es5",
     "typeRoots": [
       "../node_modules/@types"
+    ],
+    "types": [
+        "firebase"
     ]
   }
+
 }
+
+declare var require: any;
+declare var module: any;
+
+
